@@ -2,5 +2,7 @@
 **/node_modules/**
 /.eslintrc.js
 /stylelint.config.js
+/stylelint.config.cjs
 /postcss.config.js
+/postcss.config.cjs
 /vite.config.ts
