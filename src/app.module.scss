@@ -1,0 +1,13 @@
+@use './assets/styles/global' as global;
+
+.message {
+    font-weight: bold;
+
+    &__annotation {
+        color: #f00;
+
+        @include global.mq-mobile {
+            color: #000;
+        }
+    }
+}

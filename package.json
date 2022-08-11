@@ -1,0 +1,65 @@
+{
+  "name": "vite-vue3-ssg",
+  "version": "0.0.1",
+  "repository": {
+    "url": "https://github.com/nokv/vite-vue3-ssg.git"
+  },
+  "author": "nokv",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite-ssg build",
+    "preview": "vite preview",
+    "preview-https": "serve dist",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "run-p -l -c --aggregate-output lint:*",
+    "lint:tsc": "tsc --noEmit",
+    "lint:eslint": "eslint .",
+    "lint:prettier": "prettier --check .",
+    "lint:style": "stylelint \"**/*.{css,scss}\" --ignore-path .stylelintignore",
+    "fix": "run-s fix:*",
+    "fix:eslint": "yarn lint:eslint --fix",
+    "fix:prettier": "prettier -w .",
+    "fix:style": "yarn lint:style --fix"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "dependencies": {
+    "@vueuse/core": "9.0.0",
+    "@vueuse/head": "0.7.7",
+    "vue": "3.2.37",
+    "vue-router": "4.1.2"
+  },
+  "devDependencies": {
+    "@types/node": "16.11.45",
+    "@typescript-eslint/eslint-plugin": "5.31.0",
+    "@typescript-eslint/parser": "5.31.0",
+    "@vitejs/plugin-vue": "3.0.1",
+    "@vue/compiler-sfc": "3.2.37",
+    "@vue/eslint-config-prettier": "7.0.0",
+    "@vue/eslint-config-typescript": "11.0.0",
+    "cross-env": "7.0.3",
+    "eslint": "8.20.0",
+    "eslint-config-prettier": "8.5.0",
+    "eslint-plugin-import": "2.26.0",
+    "eslint-plugin-vue": "9.3.0",
+    "npm-run-all": "4.1.5",
+    "postcss": "8.4.14",
+    "postcss-preset-env": "7.7.2",
+    "prettier": "2.7.1",
+    "ress": "5.0.2",
+    "sass": "1.54.0",
+    "stylelint": "14.9.1",
+    "stylelint-config-prettier": "9.0.3",
+    "stylelint-config-standard": "26.0.0",
+    "stylelint-config-standard-scss": "5.0.0",
+    "stylelint-scss": "4.3.0",
+    "typescript": "4.7.4",
+    "vite": "3.0.3",
+    "vite-plugin-pages": "0.25.0",
+    "vite-ssg": "0.20.2",
+    "vue-eslint-parser": "9.0.3"
+  }
+}
