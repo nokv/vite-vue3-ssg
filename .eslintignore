@@ -1,6 +1,7 @@
 /dist/
 **/node_modules/**
 /.eslintrc.js
+/.eslintrc.cjs
 /stylelint.config.js
 /stylelint.config.cjs
 /postcss.config.js
