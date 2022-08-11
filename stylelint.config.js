@@ -18,6 +18,7 @@ const config = {
                 camelCaseSvgKeywords: true,
             },
         ],
+        'selector-class-pattern': '^[a-z][a-zA-Z0-9]+$',
     },
 };
 module.exports = config;

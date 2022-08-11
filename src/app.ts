@@ -1,7 +1,7 @@
 import '~/assets/styles/app.scss';
 import { ViteSSG } from 'vite-ssg';
 import generatedRoutes from '~pages';
-import App from './App.vue';
+import App from '~/App.vue';
 
 const routes = generatedRoutes;
 

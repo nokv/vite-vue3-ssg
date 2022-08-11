@@ -73,13 +73,13 @@ ol[class] {
     color: var(--color-white);
 }
 
-.mobile-only {
+.mobileOnly {
     @include mq.mq-more-than-mobile {
         display: none;
     }
 }
 
-.desktop-only {
+.desktopOnly {
     @include mq.mq-mobile {
         display: none;
     }
