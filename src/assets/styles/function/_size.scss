@@ -1,5 +1,7 @@
+@use 'sass:list';
+
 @function get-vw($size, $viewport: var(--base-size)) {
-    $rate: (100 / $viewport);
+    $rate: list.slash(100, $viewport);
     @return calc(#{$rate} * #{$size} * 1vw);
 }
 
