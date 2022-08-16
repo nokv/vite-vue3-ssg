@@ -21,6 +21,7 @@ export default defineConfig({
     ssgOptions: {
         dirStyle: 'nested',
         script: 'async',
+        formatting: 'minify',
     },
     build: {
         cssCodeSplit: true,
