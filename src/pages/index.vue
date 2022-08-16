@@ -14,8 +14,15 @@ import { ref, useCssModule } from 'vue';
 import { useHead } from '@vueuse/head';
 import Text from '~/components/text.vue';
 
+const title = 'hello world';
+const description = 'this is description';
 useHead({
-    title: 'hello world!',
+    title,
+    meta: [
+        { name: 'description', content: description },
+        { name: 'og:title', content: title },
+        { name: 'og:description', content: description },
+    ],
 });
 
 const styles = useCssModule();
