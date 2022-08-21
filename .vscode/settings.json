@@ -1,4 +1,4 @@
 {
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "cSpell.words": ["Vite"]
+  "cSpell.words": ["Pinia", "Vite"]
 }
