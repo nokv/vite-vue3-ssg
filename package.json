@@ -30,13 +30,13 @@
     "node": "16"
   },
   "dependencies": {
-    "@vueuse/core": "9.1.0",
+    "@vueuse/core": "9.1.1",
     "@vueuse/head": "0.7.9",
     "vue": "3.2.37",
     "vue-router": "4.1.4"
   },
   "devDependencies": {
-    "@types/node": "16.11.53",
+    "@types/node": "16.11.56",
     "@typescript-eslint/eslint-plugin": "5.34.0",
     "@typescript-eslint/parser": "5.34.0",
     "@vitejs/plugin-vue": "3.0.3",
