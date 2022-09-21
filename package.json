@@ -37,8 +37,8 @@
   },
   "devDependencies": {
     "@types/node": "16.11.59",
-    "@typescript-eslint/eslint-plugin": "5.37.0",
-    "@typescript-eslint/parser": "5.37.0",
+    "@typescript-eslint/eslint-plugin": "5.38.0",
+    "@typescript-eslint/parser": "5.38.0",
     "@vitejs/plugin-vue": "3.1.0",
     "@vue/compiler-sfc": "3.2.39",
     "@vue/eslint-config-prettier": "7.0.0",
