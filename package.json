@@ -27,7 +27,7 @@
     "defaults"
   ],
   "engines": {
-    "node": "16"
+    "node": "18"
   },
   "dependencies": {
     "@vueuse/core": "9.5.0",
